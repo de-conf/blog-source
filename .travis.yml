@@ -29,8 +29,10 @@ before_install:
 - git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct"
   "$path")" "$path"; done
 - git submodule update --recursive --remote --init
-- git clone --branch=master --single-branch https://github.com/de-conf/de-conf.github.io.git .deploy_git
-- openssl aes-256-cbc -K $encrypted_826e24df9f33_key -iv $encrypted_826e24df9f33_iv -in hexo_deploy_key.enc -out deploy_key -d
+- git clone --branch=master --single-branch https://github.com/de-conf/de-conf.github.io.git
+  .deploy_git
+- openssl aes-256-cbc -K $encrypted_826e24df9f33_key -iv $encrypted_826e24df9f33_iv
+  -in hexo_deploy_key.enc -out deploy_key -d
 - eval "$(ssh-agent -s)"
 - chmod 600 ./deploy_key
 - ssh-add ./deploy_key
