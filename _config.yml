@@ -90,3 +90,5 @@ search:
 # 版权声明
 post_copyright:
   enable: true
+# Readme
+skip_render: README.md
