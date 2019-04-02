@@ -605,7 +605,7 @@ theme_config:
 
   # Han Support
   # Dependencies: https://github.com/theme-next/theme-next-han
-  han: false
+  han: true
 
   # Pangu Support
   # Dependencies: https://github.com/theme-next/theme-next-pangu
@@ -909,7 +909,7 @@ theme_config:
   # Reading progress bar
   # Dependencies: https://github.com/theme-next/theme-next-reading-progress
   reading_progress:
-    enable: false
+    enable: true
     color: "#37c6c0"
     height: 2px
 
@@ -942,7 +942,7 @@ theme_config:
   # Choose only any one variant, do not need to install both.
   # To install 2.x: https://github.com/theme-next/theme-next-fancybox
   # To install 3.x: https://github.com/theme-next/theme-next-fancybox3
-  fancybox: false
+  fancybox: true
 
   # Added switch option for separated repo in 6.0.0.
   # Dependencies: https://github.com/theme-next/theme-next-fastclick
