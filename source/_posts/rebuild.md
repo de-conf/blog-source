@@ -3,13 +3,14 @@ title: Rebuild Blog
 date: 2019-02-25 23:30:14
 tags: blog
 categories: hexo blog
+show: hide
 ---
-<!-- more -->
 
 # 从头开始
 
 非常悲催,由于一次误操作,导致了我的Blog源文件丢失.然后由于本人懒散 :grinning: ,一直拖到现在才重建Blog. 
 
+<!-- more -->
 # 新科技
 
 1. 为了上次经验教训采用了github保存blog源文件
