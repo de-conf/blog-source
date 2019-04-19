@@ -98,3 +98,10 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+
+# 字数以及阅读时间插件
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
