@@ -5,6 +5,7 @@ tags:
 ---
 # 0x00. 简介:
 1. 这是针对我校(西安石油)路由器认证给出的解决方案(包括ipv6 认证)
+<!-- more -->
 2. drcom程序禁止开启热点,为此有大佬逆向了drcom程序,分析出了认证数据包的关键字,并且模拟了认证数据包,程序核心是发送认证数据包维持心跳包,由于跳过了drcom程序,所以可以使得一直保持在线状态.
 3. 程序已经开源,有[python版本](https://github.com/drcoms/drcom-generic),和[C语言版本](https://github.com/mchome/dogcom)
 本文主要记录C语言版本使用方法(python对于小容量nand flash闪存芯片就是灾难,根本放不下)
@@ -94,7 +95,7 @@ ror_version = False
 ## 0x04 添加ipv6认证
 概述:由于我校新加了ipv6认证,所以ipv6访问会出现一定问题.
 经过观察,发现访问ipv6地址时浏览器会跳转到 http:192.168.255.249,所以抓了一次包,wireshark截图如下
-![ipv6-auth](/drcom-ipv6-auth.png)
+![ipv6-auth](drcom-ipv6-auth.png)
 所以ipv6认证方式显而易见,是通过一次GET请求来实现的,模拟这一过程就好!
 ### 依赖软件
 `opkg update && opkg install curl`
