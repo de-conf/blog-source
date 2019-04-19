@@ -151,9 +151,8 @@ baidu_push: true
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
-  tags: /tags/ || tags
   categories: /categories/ || th
+  #tags: /tags/ || tags
   archives: /archives/ || archive
   about: /about/ || user
   #schedule: /schedule/ || calendar
@@ -231,7 +230,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/android-chrome-512x512.png
+  url: /image/android-chrome-512x512.png
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -353,7 +352,7 @@ codeblock:
 
 # Wechat Subscriber
 wechat_subscriber:
-  enable: true
+  enable: false
   #qcode: /path/to/your/wechatqcode e.g. /uploads/wechat-qcode.jpg
   #description: e.g. subscribe to my blog by scanning my public wechat account
 
@@ -636,8 +635,8 @@ changyan:
 # More info available at https://valine.js.org
 valine:
   enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid: yPliv1llI3UU9llug4BTlv7f-gzGzoHsz# your leancloud application appid
-  appkey: ObdLrNtsJHR5yoFPaD6Nca7A# your leancloud application appkey
+  appid: yPliv1llI3UU9llug4BTlv7f-gzGzoHsz # your leancloud application appid
+  appkey: ObdLrNtsJHR5yoFPaD6Nca7A # your leancloud application appkey
   notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: true # Verification code
   placeholder: 'ヾﾉ≧∀≦)o说点什么?' # comment box placeholder
