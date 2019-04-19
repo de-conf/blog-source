@@ -1,0 +1,330 @@
+ERROR Theme config load failed.
+ERROR Process failed: _config.yml
+YAMLException: duplicated mapping key at line 222, column -111:
+    github_banner:                                                                                                                                                   
+    ^                                                                                                                                                                
+    at generateError (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)                                                                           
+    at throwError (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)                                                                               
+    at storeMappingPair (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:335:7)                                                                         
+    at readBlockMapping (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1098:9)                                                                        
+    at composeNode (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)                                                                            
+    at readDocument (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)                                                                            
+    at loadDocuments (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)                                                                           
+    at Object.load (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)                                                                            
+    at Hexo.yamlHelper (/home/albert/blog/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)                                                                       
+    at Hexo.tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                            
+    at Hexo.<anonymous> (/home/albert/blog/node_modules/bluebird/js/release/method.js:15:34)                                                                         
+    at Promise.then.text (/home/albert/blog/node_modules/hexo/lib/hexo/render.js:61:21)                                                                              
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at Promise._settlePromiseFromHandler (/home/albert/blog/node_modules/bluebird/js/release/promise.js:512:31)                                                      
+    at Promise._settlePromise (/home/albert/blog/node_modules/bluebird/js/release/promise.js:569:18)                                                                 
+    at Promise._settlePromise0 (/home/albert/blog/node_modules/bluebird/js/release/promise.js:614:10)                                                                
+    at Promise._settlePromises (/home/albert/blog/node_modules/bluebird/js/release/promise.js:694:18)                                                                
+    at _drainQueueStep (/home/albert/blog/node_modules/bluebird/js/release/async.js:138:12)                                                                          
+    at _drainQueue (/home/albert/blog/node_modules/bluebird/js/release/async.js:131:9)                                                                               
+    at Async._drainQueues (/home/albert/blog/node_modules/bluebird/js/release/async.js:147:5)                                                                        
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/albert/blog/node_modules/bluebird/js/release/async.js:17:14)                                             
+    at runCallback (timers.js:705:18)                                                                                                                                
+ERROR Process failed: _data/next.yml
+YAMLException: duplicated mapping key at line 222, column -111:
+    github_banner:                                                                                                                                                   
+    ^                                                                                                                                                                
+    at generateError (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:167:10)                                                                           
+    at throwError (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:173:9)                                                                               
+    at storeMappingPair (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:335:7)                                                                         
+    at readBlockMapping (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1098:9)                                                                        
+    at composeNode (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1359:12)                                                                            
+    at readDocument (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1519:3)                                                                            
+    at loadDocuments (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1575:5)                                                                           
+    at Object.load (/home/albert/blog/node_modules/js-yaml/lib/js-yaml/loader.js:1596:19)                                                                            
+    at Hexo.yamlHelper (/home/albert/blog/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)                                                                       
+    at Hexo.tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                            
+    at Hexo.<anonymous> (/home/albert/blog/node_modules/bluebird/js/release/method.js:15:34)                                                                         
+    at Promise.then.text (/home/albert/blog/node_modules/hexo/lib/hexo/render.js:61:21)                                                                              
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at Promise._settlePromiseFromHandler (/home/albert/blog/node_modules/bluebird/js/release/promise.js:512:31)                                                      
+    at Promise._settlePromise (/home/albert/blog/node_modules/bluebird/js/release/promise.js:569:18)                                                                 
+    at Promise._settlePromise0 (/home/albert/blog/node_modules/bluebird/js/release/promise.js:614:10)                                                                
+    at Promise._settlePromises (/home/albert/blog/node_modules/bluebird/js/release/promise.js:694:18)                                                                
+    at _drainQueueStep (/home/albert/blog/node_modules/bluebird/js/release/async.js:138:12)                                                                          
+    at _drainQueue (/home/albert/blog/node_modules/bluebird/js/release/async.js:131:9)                                                                               
+    at Async._drainQueues (/home/albert/blog/node_modules/bluebird/js/release/async.js:147:5)                                                                        
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/albert/blog/node_modules/bluebird/js/release/async.js:17:14)                                             
+    at runCallback (timers.js:705:18)                                                                                                                                
+INFO  Files loaded in 752 ms
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:582:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:582:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:582:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:582:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:582:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:1124:18)                             
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:1124:18)                             
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:570:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:621:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:621:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:621:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:621:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:1152:18)                             
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+Error: ENOENT: no such file or directory, open '/home/albert/blog/themes/next/layout/_scripts/schemes/.swig'
+    at Object.openSync (fs.js:436:3)                                                                                                                                 
+    at Object.readFileSync (fs.js:341:35)                                                                                                                            
+    at Object.ret.load (/home/albert/blog/node_modules/swig-templates/lib/loaders/filesystem.js:59:15)                                                               
+    at exports.Swig.compileFile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:740:31)                                                                   
+    at Object.eval [as tpl] (eval at precompile (/home/albert/blog/node_modules/swig-templates/lib/swig.js:537:13), <anonymous>:570:18)                              
+    at compiled (/home/albert/blog/node_modules/swig-templates/lib/swig.js:664:18)                                                                                   
+    at Theme._View.View._compiled.locals [as _compiled] (/home/albert/blog/node_modules/hexo/lib/theme/view.js:125:48)                                               
+    at Theme._View.View.View.render (/home/albert/blog/node_modules/hexo/lib/theme/view.js:30:15)                                                                    
+    at route.set (/home/albert/blog/node_modules/hexo/lib/hexo/index.js:394:29)                                                                                      
+    at tryCatcher (/home/albert/blog/node_modules/bluebird/js/release/util.js:16:23)                                                                                 
+    at /home/albert/blog/node_modules/bluebird/js/release/method.js:15:34                                                                                            
+    at RouteStream._read (/home/albert/blog/node_modules/hexo/lib/hexo/router.js:134:3)                                                                              
+    at RouteStream.Readable.read (_stream_readable.js:452:10)                                                                                                        
+    at resume_ (_stream_readable.js:899:12)                                                                                                                          
+    at process._tickCallback (internal/process/next_tick.js:63:19)                                                                                                   
+ERROR Asset render failed: css/main.css
+Error: /home/albert/blog/themes/next/source/css/_common/components/highlight/highlight.styl:84:30
+   80|                                                                                                                                                               
+   81|   .gutter pre {                                                                                                                                               
+   82|     padding-left: 10px                                                                                                                                        
+   83|     padding-right: 10px                                                                                                                                       
+   84|     color: $highlight-gutter.color                                                                                                                            
+------------------------------------^                                                                                                                                
+   85|     text-align: right                                                                                                                                         
+   86|     background-color: $highlight-gutter.bg-color                                                                                                              
+   87|   }                                                                                                                                                           
+
+$highlight-gutter has no property .color                                                                                                                             
+    at ".gutter pre " (/home/albert/blog/themes/next/source/css/_common/components/highlight/highlight.styl:80:4)                                                    
+    at ".highlight " (/home/albert/blog/themes/next/source/css/_common/components/highlight/highlight.styl:38:2)                                                     
+
+    at Evaluator.visitMember (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:351:11)                                                                 
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitExpression (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:644:26)                                                             
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitExpression (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:644:26)                                                             
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitProperty (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:687:22)                                                               
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitBlock (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:720:39)                                                                  
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitGroup (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:261:22)                                                                  
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitBlock (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:720:39)                                                                  
+    at Evaluator.Visitor.visit (/home/albert/blog/node_modules/stylus/lib/visitor/index.js:28:40)                                                                    
+    at Evaluator.visit (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:160:18)                                                                       
+    at Evaluator.visitGroup (/home/albert/blog/node_modules/stylus/lib/visitor/evaluator.js:261:22) 
