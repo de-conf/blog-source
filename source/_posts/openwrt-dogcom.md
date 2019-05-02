@@ -177,3 +177,6 @@ logger -t IPv6 "Add IPv6 default route."
 个人文章,难免有错误,欢迎各位留言和指正!
 当然如果你按照此文配置遇到了问题,欢迎留言,我会尽力帮助!233
 完结了!!!
+
+{% label danger@FBI Warning %}
+{% label warning@ 本文仅限于研究,不得用于商业用途!!!负责后果自负!!!%}
