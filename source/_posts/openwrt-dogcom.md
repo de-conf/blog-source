@@ -171,8 +171,16 @@ logger -t IPv6 "Add IPv6 default route."
 记得加可执行权限
 `chmod +x /etc/hotplug.d/iface/99-ipv6`
 5. 重启,收工
-如果没特殊情况,现在你的路由器可以下发ipv6地址了,并且ipv6可以连通了,但是针对某些网站(npupt.com)访问依旧会出现问题,这是由于ipv6 nat下发的是私有ipv6地址,经过转换之后出去的.所以浏览器默认你没有公网ipv6,导致couldflare防火墙认为你没有ipv6地址造成的.暂无解决办法
-
+如果没特殊情况,现在你的路由器可以下发ipv6地址了,并且ipv6可以连通了,但是针对某些网站(npupt.com)访问依旧会出现问题,这是由于ipv6 nat下发的是私有ipv6地址,经过转换之后出去的.所以浏览器默认你没有公网ipv6,导致couldflare防火墙认为你没有ipv6地址造成的.暂无解决办法(已解决,见下文)
+6. 浏览器ipv6问题
+经过朋友提醒,浏览器有一个特性,它不认 ` fd `开头
+的ipv6地址,它认为你拿的是私有地址,所以浏览页面一直使用ipv4,也就造成npupt.com等只允许ipv6的网站上不去,所以把fd开头改成dd开头就好了!
+#修改ipv6前缀 (修改ula_prefix那一行)
+`vim /etc/config/network ` 
+```
+config globals 'globals'
+        option ula_prefix 'dd86:acf7:b93b::/48'
+```
 ## 0x06. 后记
 个人文章,难免有错误,欢迎各位留言和指正!
 当然如果你按照此文配置遇到了问题,欢迎留言,我会尽力帮助!233
