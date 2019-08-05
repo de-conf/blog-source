@@ -23,7 +23,7 @@ cache:
   directories:
   - node_modules
 before_install:
-- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+# - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 - git config --global user.name "de-conf"
 - git config --global user.email "chenjiagen88@gmail.com"
 - git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct"
