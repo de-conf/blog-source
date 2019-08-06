@@ -4,9 +4,6 @@ addons:
   ssh_known_hosts:
   - github.com
   - git.coding.net
-  apt:
-    packages:
-    - nasm
 env:
   global:
   - TZ=Asia/Shanghai
@@ -19,7 +16,7 @@ git:
   depth: false
   submodules: false
 cache:
-  apt: true
+  yarn: true
   directories:
   - node_modules
 before_install:
@@ -36,7 +33,7 @@ before_install:
 - eval "$(ssh-agent -s)"
 - chmod 600 ./deploy_key
 - ssh-add ./deploy_key
-install: npm install
+install: yarn install
 before_script: 
 script:
 - hexo clean
