@@ -102,7 +102,7 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Disable Baidu transformation on mobile devices.
-disable_baidu_transformation: false
+disable_baidu_transformation: true
 
 # Set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -117,11 +117,11 @@ seo: false
 index_with_subtitle: false
 
 # Automatically add external URL with Base64 encrypt & decrypt.
-exturl: false
+exturl: true
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: -qqAfP7661k-hcnJh2o1OiPyeopQZ54gRCAj-ZGqwhI
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -133,7 +133,7 @@ yandex_site_verification:
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification:
+baidu_site_verification: mkLR55qTL0
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
@@ -273,8 +273,8 @@ back2top:
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
 chat:
-  enable: false
-  #service: chatra
+  enable: true
+  service: chatra
   #service: tidio
   icon: comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
@@ -616,8 +616,8 @@ reading_progress:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: de-conf.disqus.com 
   count: true
   lazyload: false
 
@@ -626,15 +626,15 @@ disqus:
 # Demo: https://suka.js.org/DisqusJS/
 # For more information: https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: false
+  enable: enable
   # API Endpoint of Disqus API (https://disqus.com/api/).
   # Leave api empty if you are able to connect to Disqus API.
   # Otherwise you need a reverse proxy for Disqus API.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api:
-  apikey: # Register new application from https://disqus.com/api/applications/
-  shortname: # See: https://disqus.com/admin/settings/general/
+  api: 
+  apikey: oLerNKWTxzp4rQZPoTVI6K4OfnibqOjqG3Vz5omMUZ7ml8AegYtw2ZoXKXtIlsVh # Register new application from https://disqus.com/api/applications/
+  shortname: de-conf.disqus.com # See: https://disqus.com/admin/settings/general/
 
 # Changyan
 changyan:
@@ -646,7 +646,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  enable: flase # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid: yPliv1llI3UU9llug4BTlv7f-gzGzoHsz # your leancloud application appid
   appkey: ObdLrNtsJHR5yoFPaD6Nca7A # your leancloud application appkey
   notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
@@ -877,9 +877,9 @@ swiftype_key:
 # See: https://chatra.io
 # Dashboard: https://app.chatra.io/settings/general
 chatra:
-  enable: false
+  enable: true
   async: true
-  id: # Visit Dashboard to get your ChatraID
+  id: iMtNQndvb69k3dqNqs # Visit Dashboard to get your ChatraID
   #embed: # Unfinished experimental feature for developers. See: https://chatra.io/help/api/#injectto
 
 # Tidio Support
@@ -923,7 +923,7 @@ tabs:
 # So, you must install the dependency of pdf.js if you want to use pdf tag and make it available to all browsers.
 # See: https://github.com/theme-next/theme-next-pdf
 pdf:
-  enable: false
+  enable: true
   # Default height
   height: 500px
   pdfobject:
@@ -932,7 +932,7 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme: forest
   cdn: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
