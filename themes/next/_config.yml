@@ -617,7 +617,7 @@ reading_progress:
 # Disqus
 disqus:
   enable: true
-  shortname: https://de-conf.disqus.com 
+  shortname: de-conf
   count: true
   lazyload: false
 
