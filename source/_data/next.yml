@@ -10,7 +10,7 @@
 override: true
 
 # Console reminder if new version released.
-reminder: false
+reminder: true
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
@@ -421,7 +421,7 @@ android_chrome_color: "#222"
 safari_rainbow: false
 
 # Optimize the display of scrollbars on webkit based browsers.
-custom_scrollbar: false
+custom_scrollbar: true
 
 # Custom Logo (Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
@@ -626,7 +626,7 @@ disqus:
 # Demo: https://suka.js.org/DisqusJS/
 # For more information: https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: enable
+  enable: true
   # API Endpoint of Disqus API (https://disqus.com/api/).
   # Leave api empty if you are able to connect to Disqus API.
   # Otherwise you need a reverse proxy for Disqus API.
@@ -646,7 +646,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: flase # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid: yPliv1llI3UU9llug4BTlv7f-gzGzoHsz # your leancloud application appid
   appkey: ObdLrNtsJHR5yoFPaD6Nca7A # your leancloud application appkey
   notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
