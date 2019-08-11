@@ -616,7 +616,7 @@ reading_progress:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: de-conf
   count: true
   lazyload: false
@@ -626,15 +626,15 @@ disqus:
 # Demo: https://suka.js.org/DisqusJS/
 # For more information: https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: false
+  enable: true
   # API Endpoint of Disqus API (https://disqus.com/api/).
   # Leave api empty if you are able to connect to Disqus API.
   # Otherwise you need a reverse proxy for Disqus API.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api: 
+  api: https://disqus.skk.moe/disqus/ 
   apikey: oLerNKWTxzp4rQZPoTVI6K4OfnibqOjqG3Vz5omMUZ7ml8AegYtw2ZoXKXtIlsVh # Register new application from https://disqus.com/api/applications/
-  shortname: de-conf.disqus.com # See: https://disqus.com/admin/settings/general/
+  shortname: de-conf # See: https://disqus.com/admin/settings/general/
 
 # Changyan
 changyan:
