@@ -56,7 +56,7 @@ menuentry 'ArchISO' --class iso {
 现在 常规操作 ` pacstrap /run/archiso/img_dev base base-devel `
 后续 arch-chroot .....不在详细说明!
 另外阿里虚拟机系统是BIOS方式引导,grub如何安装,自行参照arch wiki
-多提一句 arch-chroot 进去之后最好装上 ` rng-tools `并` systemctl enable rngd --now ` 增加熵值,不然你会发现重启系统后直接 ` ssh  `连接不上,原因就是随机数池耗尽,更多细节参加 [Random number generation](https://wiki.archlinux.org/index.php/Random_number_generation#Alternatives)
+多提一句 arch-chroot 进去之后最好装上 ` rng-tools `并` systemctl enable rngd --now ` 增加熵值,不然你会发现重启系统后直接 ` ssh  `连接不上,原因就是随机数池耗尽,更多细节参见 [Random number generation](https://wiki.archlinux.org/index.php/Random_number_generation#Alternatives)
 
 4. 重启后,Arch linux真香,现在修复网络,还记得前面的重点吗?
 使用netctl配置网络,就是添加内网,OK之后,重启netctl服务,OK,现在使用ssh直接连接,你就得到了一个干净的Arch!
