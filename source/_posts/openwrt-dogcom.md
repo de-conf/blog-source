@@ -9,7 +9,9 @@ tags:
 2. drcom程序禁止开启热点,为此有大佬逆向了drcom程序,分析出了认证数据包的关键字,并且模拟了认证数据包,程序核心是发送认证数据包维持心跳包,由于跳过了drcom程序,所以可以使得一直保持在线状态.
 3. 程序已经开源,有[python版本](https://github.com/drcoms/drcom-generic),和[C语言版本](https://github.com/mchome/dogcom)
 本文主要记录C语言版本使用方法(python对于小容量nand flash闪存芯片就是灾难,根本放不下)
+3. 2019.09.06 更新日志: 优化ipv6认证shell脚本
 # 0x01. OpenWrt
+
 简介:
 OpenWrt项目是一个针对嵌入式设备的Linux操作系统。OpenWrt不是一个单一且不可更改的固件，而是提供了具有软件包管理功能的完全可写的文件系统。(划重点: Linux,可写文件系统)
 ## 0x01 .1如何使用OpenWrt
@@ -107,7 +109,7 @@ ror_version = False
 #! /bin/sh
 ip6=`ip address show | grep "2001" |awk '{print $2}' |cut -d '/' -f 1`
 number=0
-while [ -z $ip6 ]; do
+while [ -z "$ip6"]; do
     sleep 3
     ip6=`ip address show | grep "2001" |awk '{print $2}' |cut -d '/' -f 1`
     number ++
@@ -115,10 +117,10 @@ while [ -z $ip6 ]; do
         break;
     fi
 done
-if [ $ip6 -z ]; then
+if [ -z "$ip6"  ]; then
     echo "get ipv6 address fail" > /tmp/ipv6.log
 else
-    curl  http://192.168.255.249/1.htm?mv6=$ip6
+    curl -s -o /dev/null http://192.168.255.249/1.htm?mv6=$ip6&url=http://npupt.com/
     echo "ipv6 auth success" > /tmp/ipv6.log
 fi
 
@@ -137,6 +139,7 @@ sh /etc/ipv6-auth.sh
 ```
 重启路由器
 测试 `ping ipv6.google.com`
+
 但是这个时候只是路由器ipv6连通了,下面的设备ipv6依旧不通,鉴于认证方式基于ipv6地址,故无法采用`ipv6 relay`,`ipv6 passthrougth`技术,可选的只有`ipv6 nat`
 ### 0x05 ipv6 NAT
 这部分参考了清华大学的openwrt ipv6讨论
@@ -174,8 +177,10 @@ logger -t IPv6 "Add IPv6 default route."
 如果没特殊情况,现在你的路由器可以下发ipv6地址了,并且ipv6可以连通了,但是针对某些网站(npupt.com)访问依旧会出现问题,这是由于ipv6 nat下发的是私有ipv6地址,经过转换之后出去的.所以浏览器默认你没有公网ipv6,导致couldflare防火墙认为你没有ipv6地址造成的.暂无解决办法(已解决,见下文)
 6. 浏览器ipv6问题
 经过朋友提醒,浏览器有一个特性,它不认 ` fd `开头
+
 的ipv6地址,它认为你拿的是私有地址,所以浏览页面一直使用ipv4,也就造成npupt.com等只允许ipv6的网站上不去,所以把fd开头改成dd开头就好了!
 #修改ipv6前缀 (修改ula_prefix那一行)
+
 `vim /etc/config/network ` 
 ```
 config globals 'globals'
