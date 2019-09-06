@@ -59,3 +59,8 @@ menuentry 'ArchISO' --class iso {
 
 4. 重启后,Arch linux真香,现在修复网络,还记得前面的重点吗?
 使用netctl配置网络,就是添加内网,OK之后,重启netctl服务,OK,现在使用ssh直接连接,你就得到了一个干净的Arch!
+
+
+
+# 转载文章
+[替换云服务器操作系统为Archlinux](https://www.jianshu.com/p/b98412b5fe69)
