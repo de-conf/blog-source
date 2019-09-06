@@ -13,7 +13,8 @@ tags:
 2. 使用著名的[vps2arch](),[digitalocean-debian-to-arch]()项目都不行,脚本根本跑不起来,不知道阿里做了啥操作
 3. 常规操作 阅读[凤凰酱的文章](https://blog.phoenixlzx.com/2018/02/01/build-archlinux-image-template-for-aliyun/),按照阿里要求制作启动镜像,在用oss上传,啊 ,感觉步骤真繁琐,而且阿里肯定要在系统里塞私货 
 4. 然后我在[archlinux-cn](https://t.me/archlinuxcn_group)group提问,非常感谢[Whyme Lyu]的回答,提供一种全新思路,本文基于谈话和[文章](https://www.jianshu.com/p/b98412b5fe69)补充整理而成
-5. 大致流程: 1. debian 改 grub.cfg 加 arch linux iso
+5. 大致流程: 
+            1. debian 改 grub.cfg 加 arch linux iso
             2. 启动arch iso载入到内存中
             3. 使用内存中的系统格式化物理磁盘
             4. 安装Arch linux    
