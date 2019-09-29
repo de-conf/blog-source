@@ -56,6 +56,9 @@ $ make package/luci-app-dogcom/compile
 ```
 如果没有问题,现在就已经构建好了
 现在可以去当前目录下的bin文件夹下找到dogcom.ipk,luci-app-dogcom.ipk,之后cd进该目录/在此处打开终端
+
+4. 录屏教程
+[@asciinema](compile.cast)
 ## 0x03 安装dogcom安装包,启动认证程序
 1. 上传并安装dogcom软件
 ```
