@@ -105,7 +105,7 @@ ror_version = False
 ### 依赖软件
 `opkg update && opkg install curl`
 如果遇到超时,需要换下openwrt的源
-`sed -i 's/downloads.openwrt.org/mirrors.ustc.edu.cn\/lede/g' /etc/opkg/distfeeds.conf`
+`sed -i 's_downloads.openwrt.org_mirrors.tuna.tsinghua.edu.cn/openwrt_' /etc/opkg/distfeeds.conf`
 ### ipv6-auth脚本
 `vim /etc/ipv6-auth.sh`
 ```
@@ -115,16 +115,18 @@ number=0
 while [ -z "$ip6"]; do
     sleep 3
     ip6=`ip address show | grep "2001" |awk '{print $2}' |cut -d '/' -f 1`
-    number ++
+    ((number ++));
     if [ $number -gt 6 ]; then
         break;
     fi
 done
 if [ -z "$ip6"  ]; then
     echo "get ipv6 address fail" > /tmp/ipv6.log
+    logger -t IPV6 "get ipv6 address fail"
 else
-    curl -s -o /dev/null http://192.168.255.249/1.htm?mv6=$ip6&url=http://npupt.com/
+    curl -s -o /dev/null http://192.168.255.249/1.htm?mv6=$ip6&url=http://npupt.com/ 2>&1
     echo "ipv6 auth success" > /tmp/ipv6.log
+    logger -t IPv6 "IPv6 auth sucess."
 fi
 
 exit 0
