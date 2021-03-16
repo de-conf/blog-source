@@ -1,4 +1,13 @@
+---
+title: Linux下 VirtualBox 启动本地磁盘上的其它系统
+date: 2021-03-16 22:30:00
+tags: 虚拟化，VirtualBox
+categories: 虚拟机，Linux
+show: hide
+---
+---
 # 使用 VirtualBox 启动本地磁盘上的其它系统
+<!-- more -->
 ## Virtualbox直接运行物理分区的系统
 1. 创建虚拟硬盘
 首先查看下分区情况，我的如下
