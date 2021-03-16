@@ -9,7 +9,7 @@ env:
   - TZ=Asia/Shanghai
 language: node_js
 node_js: 
-   - 11
+   - 12
 branches:
   only:
   - master
