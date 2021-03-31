@@ -1208,6 +1208,11 @@ hexo-deployer-git@^1.0.0:
     moment "^2.18.0"
     swig-templates "^2.0.2"
 
+hexo-filter-asciinema@^1.0.4:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/hexo-filter-asciinema/-/hexo-filter-asciinema-1.0.5.tgz#0e88978f5562ae6372a94b825dcedef6d6ed1860"
+  integrity sha512-oegtIOw/0HsAx6U0nbmgWglB9HMgden80fFSIxdEn7yzpAdM1kIs5yNy/wV/ZuwoDN1zvl/dZraAcctxW4Rhug==
+
 hexo-filter-github-emojis@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/hexo-filter-github-emojis/download/hexo-filter-github-emojis-2.0.3.tgz#7f78359f422a79cfaddd04ca335c1da792c468b2"
@@ -2984,9 +2989,9 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 y18n@^3.2.0:
-  version "3.2.1"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 yallist@^2.1.2:
   version "2.1.2"
